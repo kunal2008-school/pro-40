@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+ 
+<!--Link game.js and player.js-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8"> 
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+<script>
+ const firebaseConfig = {
+  apiKey: "AIzaSyCYjCPhY-P7Iv1a5VKvux1jrDa91GBJOYg",
+  authDomain: "firut-collecter.firebaseapp.com",
+  databaseURL: "https://firut-collecter-default-rtdb.firebaseio.com",
+  projectId: "firut-collecter",
+  storageBucket: "firut-collecter.appspot.com",
+  messagingSenderId: "828875693845",
+  appId: "1:828875693845:web:d718ac9790eb2e846d131c"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script> 
+
+
+</body></html>
